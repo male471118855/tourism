@@ -1,0 +1,274 @@
+body ,h1 ,ul,h2,p ,figure{
+	margin: 0;
+	padding: 0;
+}
+ul{
+	list-style: outside none none;
+}
+a{
+	text-decoration: none;
+}
+#header{
+	width: 100%;
+	height: 70px;
+	background-color: #333;
+    /*
+    filter:alpha(opacity=50);  css背景透明的三种方法
+    -moz-opacity:0.5;  
+    opacity: 0.5;
+    */  
+}
+body ,h1 ,ul{
+	margin: 0;
+	padding: 0;
+}
+ul{
+	list-style: outside none none;
+}
+a{
+	text-decoration: none;
+}
+#header{
+	width: 100%;
+	min-width: 1280px;
+	height: 70px;
+	background-color: #333;
+    /*
+    filter:alpha(opacity=50);  css背景透明的三种方法
+    -moz-opacity:0.5;  
+    opacity: 0.5;
+    */  
+}
+#header >.center{
+	width: 1263px;
+	height: 70px;
+	margin: 0 auto;
+}
+#header .logo{
+	width: 240px;
+	height: 70px;
+	background-image: url(img/logo.png);
+	background-size: cover;
+	text-indent: -999px;
+	float: left;
+}
+#header .link{
+	width: 605px;
+	height: 70px;
+	color: #eee;
+	line-height: 70px;
+	float: right;
+}
+#header .link li{
+	width: 120px;
+	text-align: center;
+	float: left;
+}
+#header .link a{
+	color: #EEEEEE;
+	display: block;
+}
+#header .link a:hover,
+#header .active a{
+	background-color: #000;
+}
+#search{
+	width: 100%;
+	min-width: 1280px;
+	height: 600px;
+	background:url(img/datu.png) no-repeat center;
+	background-size: cover;
+	position: relative;
+}
+#search .center{
+	width: 600px;
+	height: 60px;
+	background: #000;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -30px 0 0 -300px;
+	opacity: 0.5;
+	border-radius: 10px;
+}
+#search .search{
+	width: 446px;
+	height: 52px;
+	position: absolute;
+	top: 50%;
+	left:50%;
+	margin: -27px 0 0 -296px;
+	color: #666;
+	border: 1px solid #666;
+	border-radius: 10px;/*边框 圆角*/
+	font-size: 24px;
+	padding:0 10px;
+	outline: none; /*去掉外边框*/
+	background-color: #eee;
+	
+}
+#search button{
+	width: 120px;
+	height: 52px;
+	position: absolute;
+	top: 50%;
+	left:50%;
+	margin: -27px 0 0 175px;
+	color: #666;
+	background-color: #eee;
+	border: 1px solid #666;
+	border-radius: 10px;/*边框 圆角*/
+	font-size: 24px;
+	outline: none; /*去掉外边框*/
+	cursor: pointer;/*鼠标划过出现手指 */
+	font-weight: bold;/*字体加粗*/
+}
+#tour{
+	width: 1263px;
+	height: 1220px;
+	margin: 30px auto;
+	text-align: center;
+}
+#tour .center h2{
+	font-size: 45px;
+	color: #666;
+	margin: 10px 0;
+	letter-spacing: 2px;/*文字间距 */
+}
+#tour .center p{
+	color: #666;
+	margin: 10px 0;
+}
+#tour figure{
+	width: 380px;
+	border: 1px solid #ddd;
+	display: inline-block;
+	padding: 4px;
+	border-radius: 4px;
+	margin: 15px 12px;
+	text-align: left;
+	position: relative;
+ }
+ #tour figure img{
+ 	vertical-align: middle;/*设置图片放置在父元素的中部*/
+ }
+#tour figure figcaption{
+	color: #777;
+	line-height: 1.5; /*行高 */
+	letter-spacing: 1px; /*该属性定义了在文本字符框之间插入多少空间。由于字符字形通常比其字符框要窄，指定长度值时，会调整字母之间通常的间隔。因此，normal 就相当于值为 0。*/
+	font-size: 14px;
+	padding: 7px 0 5px 0;
+	}
+#tour .title{
+	color: #333;
+	font-weight: normal; /*不一定是粗体 */
+}
+#tour .sat{
+	float: right;
+	font-size: 14px;
+	color: #999;
+	font-style: normal;
+	position: relative;
+	top: 5px;
+	right: 5px;	
+}
+#tour .info{
+	padding: 5px 0 0 0;
+}
+#tour .price{
+	color: #f60;
+	font-size: 13px;
+}
+#tour .price strong{
+	font-size: 20px;
+	letter-spacing: 1px;
+}
+#tour .type{
+	width: 90px;
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+	background-color: #59b200;
+	color: #fff;
+	font-size: 14px;
+	letter-spacing: 1px;
+	position: absolute;
+	top: 4px;
+	left: 4px;
+}
+#footer{
+	height: 360px;
+	background-color:#222 ;
+}
+#footer .top{
+	width: 1263px;
+	height: 281px;
+	margin: 0 auto;
+	text-align: center;
+}
+#footer .left{
+	width: 410px;
+	height: 280px;
+	display: inline-block;
+	text-align: left;
+}
+#footer .left h2{
+	color: #ccc;
+	font-size: 24px;
+	font-weight: normal;
+	padding: 20px 0 0 20px;
+}
+#footer .left hr{
+	width: 88%;
+	border: 1px dashed #333;
+}
+#footer ul{
+	font-size: 18px;
+	color: #777;
+	text-indent: 20px;
+	line-height: 2;
+}
+#footer .center h2{
+	color: #ccc;
+	font-size: 24px;
+	font-weight: normal;
+	padding: 20px 0 0 20px;
+}
+#footer .center hr{
+	width: 88%;
+	border: 1px dashed #333;
+}
+#footer .center{
+	width: 410px;
+	height: 280px;
+    display: inline-block;
+    	text-align: left;
+    vertical-align: top;
+
+}
+#footer .right h2{
+	color: #ccc;
+	font-size: 24px;
+	font-weight: normal;
+	padding: 20px 0 0 20px;
+}
+#footer .right{
+	width: 410px;
+	height: 280px;
+    display: inline-block;
+    	text-align: left;
+    vertical-align: top;
+
+}
+#footer .right hr{
+	width: 88%;
+	border: 1px dashed #333;
+}
+#footer .bottom{
+	height: 80px;
+	line-height: 80px;
+	text-align: center;
+	color: #777;
+	background-color: #000;
+	border-top: 1px solid #444;
+}

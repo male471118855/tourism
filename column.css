@@ -1,0 +1,256 @@
+#headerline{
+	width: 100%;
+	height: 300px;
+	min-width: 1263px;
+	background: linear-gradient( to right bottom, rgba(0,0,0,0.7), rgba(0,0,0,0)),url(img/datu1.png) no-repeat center;    /*css3 渐变属性*/
+	background-size: 100%;
+}
+#headerline .center{
+	width: 1263px;
+	height: 300px;
+	margin: 0 auto;
+}
+#headerline hgroup{
+	padding:  100px 0 0 50px;
+}
+#headerline h2{
+	color: #eee;
+	font-size: 36px;
+	letter-spacing: 1px;
+}
+#headerline h3{
+	color: #eee;
+	font-size: 20px;
+	letter-spacing: 1px;
+}
+#container{
+	width: 1263px;
+	height: 1200px;
+	margin: 30px auto;
+}
+#container .sidebar{
+	width: 340px;
+    height: 1200px;
+	float: right;
+}
+#container .list{
+	width: 910px;
+	float: left;
+}
+#container .sidebox{
+	border: 1px solid #eee;
+	margin:  0 0 10px 0;
+	text-align: center;
+}
+
+#container .sidebox h2{
+	font-size: 20px;
+	height: 40px;
+	line-height: 40px; /*行高 */
+	font-weight: normal; /*去掉字体加醋 */
+	letter-spacing: 1px; /*字体间隔1px*/
+	text-indent: 8px; /*首行缩禁8px*/
+	background-color: #fafafa;
+	color: #666;
+	text-align: left;
+}
+#container .tag{
+	margin: 10px 0;
+}
+#container .tag li{
+	background-color: #eee;
+	width: 100px;
+	height: 35px;
+	line-height: 35px;
+	margin: 2px 0;
+	display: inline-block;
+}
+#container .tag a{
+	color: #999;
+	display: block;
+}
+#container .tag a:hover{
+	background-color: #458b00;
+	color: #fff;
+}
+#container .figure{
+	padding: 10px 0;
+}
+#container figure{
+	display: inline-block;
+	padding: 4px;
+	color: #666;
+}
+#container .box{
+	margin: 10px 0;
+}
+#container .box a{
+	background-color: #eee;
+	width: 150px;
+	height: 40px;
+	line-height: 35px;
+	margin: 2px 0;
+	display: inline-block;
+	color: #999;
+}
+#container .box a:hover{
+	background-color: #458b00;
+	color: #fff;
+}
+#container .info{
+	height: 45px;
+	line-height: 45px;
+	background-color: #eee;
+	margin:  0 0 20px 0;
+}
+#container .left{
+	display: inline-block;
+	float: left;
+}
+#container .left li{
+	width: 150px;
+	height: 43px;
+	display: inline-block;
+	line-height: 43px;
+	text-align: center;
+	position: relative;
+	left: 1px;
+}
+#container .left a{
+	color: #666;
+}
+#container .left li:first-child{
+	background-color: #fff;
+	border-top: 2px solid #458B00;
+}
+#container .right{
+	display: inline-block;
+	padding: 0 20px 0 0;
+	float: right;
+}
+#container .right li{
+	display: inline-block;
+	width: 60px;
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+}
+#container .right a{
+	padding: 3px 8px;
+	color: #666;
+}
+#container .right a.selected,#container .right a:hover{
+	background-color: #458B00;
+	color: #fff;
+}
+#container .tour{
+	width: 908px;
+	padding: 0;
+	margin: 0 0 20px 0;
+	border: 1px solid #eee;
+	position: relative;
+}
+#container .tour img{
+	float: left;
+}
+#container .tour figcaption{
+	width: 528px;
+	height: 250px;
+	float: right;
+}
+#container .tour hgroup{
+	width: 300px;
+}
+#container .tour h2{
+	font-size: 24px;
+	font-weight: normal;
+	padding: 10px 0 10px 25px;
+	color: #333;
+}
+#container .tour h3{
+	font-size: 16px;
+	padding: 10px 0 10px 25px;
+	line-height: 1.5;
+	font-weight: normal;
+	color: #666;
+}
+#container .tour ol{
+	padding: 0 0 0 25px;
+	color: #666;
+	line-height: 2;
+}
+#container .tour mark{
+	background-color: #fff;
+	border: 1px solid #458B00;
+	border-radius: 4px;
+	padding: 0 5px;
+	color: #458B00;
+}
+#container .tour .buy{
+	position: absolute;
+	top: 55px;
+	right: 30px;
+}
+#container .tour .price{
+	font-size: 20px;
+	color: #f60;
+}
+#container .tour .price strong{
+	font-size: 36px;
+}
+#container .tour .price s{
+	font-size: 16px;
+	color: #999;
+}
+#container .tour .reserve{
+	margin: 30px 0 0 0;
+}
+#container .tour .type{
+	width: 90px;
+	height: 25px;
+	line-height: 25px;
+	text-align: center;
+	background-color: #59b200;
+	color: #fff;
+	font-size: 14px;
+	letter-spacing: 1px;
+	position: absolute;
+	top: 0;
+	left:0;
+}
+#container .tour .disc{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 52px;
+	height: 52px;
+	color: #ff7a4b;
+	font-size: 14px;
+	padding: 10px 0 10px 0;
+	transform: rotate(45deg); /* 倾斜45度*/
+}
+#container .tour .reserve a{
+	display: inline-block;
+	width: 152px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	border-radius: 4px;
+	font-size: 20px;
+	color: #fff;
+	background-color: #f60;
+}
+#container .tour footer{
+	width: 528px;
+	height: 35px;
+	line-height: 35px;
+	text-indent: 25px;
+	color: #666;
+	position: absolute;
+	bottom: 0;
+	background-color: #FAFAFA;
+	letter-spacing: 1px;
+}
+#container .tour time{
+	color: #458B00;
+}
